@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+
 }
 
 ul {
@@ -31,11 +32,16 @@ button {
 }
 
 .header {
-    display: flex;
-    justify-content: space-around;
-    height: 72px;
     background-color: #1F2937;
+}
+
+.header-contents {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
     align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -50,13 +56,18 @@ button {
 }
 
 .s1 {
-    display: flex;
     background-color: #1F2937;
+}
+
+.s1-contents {
+    display: flex;
     color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    padding: 100px 150px;
+    padding: 100px 0;
     gap: 32px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .s1-header {
@@ -84,7 +95,7 @@ button {
     text-align: center;
 }
 
-.s2-header {   
+.s2-header {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -95,7 +106,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 52px;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
 }
 
 .s2-item {
@@ -118,25 +129,28 @@ button {
     padding: 100px 162px;
     align-content: center;
     justify-content: center;
+
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color: #1F2937
+    color: #1F2937;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .quote-by {
     font-size: 24px;
     text-align: right;
     font-weight: bold;
-    margin-right: 50px;
-    margin-top: 16px;
+    max-width: 750px;
+    margin: 16px auto 0;
 }
 
 .s4 {
-    padding: 100px 150px;
+    margin: 100px 0;
 }
 
 .s4-contents {
@@ -147,6 +161,8 @@ button {
     background-color: #3882F6;
     border-radius: 8px;
     gap: 32px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .s4-header {
