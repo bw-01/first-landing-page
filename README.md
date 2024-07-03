@@ -1,6 +1,6 @@
 # Landing Page Website
 
-A basic landing page website created as part of The Odin Project.
+A landing page website created as part of The Odin Project to demonstrate understanding of HTML and CSS with Flexbox.
 
 - Author: B.W.
 
